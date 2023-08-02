@@ -1,0 +1,31 @@
+.box{
+width:1920px;
+height:1080px;
+background-color: #add2e1;
+border:1px solid #040101;
+
+text-align: center;
+font-size: 18px;
+font-weight: bold;
+}
+.outer-box{
+    width:1920px;
+    height:100px;
+    background-color: #FFFFFF;
+    border:1px solid #040101;
+    border-color:black;
+}
+.image{
+    position: absolute; /* Position the image absolutely within the box */
+    /* top: 20px; Adjust the top position in pixels */
+    left: 50px; /* Adjust the left position in pixels */
+    width: 100px;
+    height: 100px;
+    border: 2px solid #00aa00;
+}
+.text{
+    float:right;
+}
+.nav-item{
+    color: #000;
+}
